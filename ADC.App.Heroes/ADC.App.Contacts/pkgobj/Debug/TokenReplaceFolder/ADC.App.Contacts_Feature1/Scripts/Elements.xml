@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\index.html" Url="Scripts/index.html" ReplaceContent="TRUE" />
+    <File Path="Scripts\App\App.js" Url="Scripts/App/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\App\controller\mainController.js" Url="Scripts/App/controller/mainController.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\App\services\speakersServices.js" Url="Scripts/App/services/speakersServices.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\App\views\list.html" Url="Scripts/App/views/list.html" ReplaceContent="TRUE" />
+    <File Path="Scripts\App\views\add.html" Url="Scripts/App/views/add.html" ReplaceContent="TRUE" />
+    <File Path="Scripts\App\views\edit.html" Url="Scripts/App/views/edit.html" ReplaceContent="TRUE" />
+    <File Path="Scripts\App\views\delete.html" Url="Scripts/App/views/delete.html" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

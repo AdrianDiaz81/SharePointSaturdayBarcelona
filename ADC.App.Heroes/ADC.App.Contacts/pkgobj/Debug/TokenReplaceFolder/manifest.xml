@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="1a7379b3-1ec6-42af-8d35-2478818dc3dc" SharePointProductVersion="16.0">
+  <FeatureManifests>
+    <FeatureManifest Location="ADC.App.Contacts_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

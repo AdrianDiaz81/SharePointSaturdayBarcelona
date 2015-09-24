@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="1a7379b3-1ec6-42af-8d35-2478818dc3dc" 
+        solutionId="1a7379b3-1ec6-42af-8d35-2478818dc3dc" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="ADC.App.Contacts"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="b25d581d-c727-45b9-a4c4-11e813066458" />
+  </features>
+</package>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Speakers" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Speakers" Description="My List Instance">
+  <Data>
+    <Rows>
+      <Row>
+        <Field Name="Title">Adrián</Field>
+        <Field Name="Apellidos">Díaz Cervera</Field>        
+        <Field Name="Puesto Trabajo">SharePoint Architect</Field>
+        <Field Name="Foto">http://www.spsevents.org/SPSSpeakerPhotos/Speaker_1001.png?RenditionID=8</Field>
+      </Row>
+      <Row>
+      <Field Name="Title">Santiago</Field>
+      <Field Name="Apellidos">Porras</Field>
+      <Field Name="Puesto Trabajo">SharePoint Developer</Field>
+      <Field Name="Foto">http://www.spsevents.org/SPSSpeakerPhotos/Speaker_1036.png?RenditionID=5</Field>
+      </Row>
+    </Rows>
+  </Data>
+  </ListInstance>
+</Elements>

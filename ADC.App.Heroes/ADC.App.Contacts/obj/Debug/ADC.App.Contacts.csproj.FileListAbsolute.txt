@@ -1,0 +1,6 @@
+c:\users\adiaz\documents\visual studio 2015\Projects\ADC.App.Contacts\ADC.App.Contacts\bin\Debug\ADC.App.Contacts.pdb
+c:\users\adiaz\documents\visual studio 2015\Projects\ADC.App.Contacts\ADC.App.Contacts\obj\Debug\ADC.App.Contacts.dll
+c:\users\adiaz\documents\visual studio 2015\Projects\ADC.App.Contacts\ADC.App.Contacts\obj\Debug\ADC.App.Contacts.pdb
+C:\GitHub\SharPointSaturdayBarcelona\ADC.App.Heroes\ADC.App.Contacts\bin\Debug\ADC.App.Contacts.pdb
+C:\GitHub\SharPointSaturdayBarcelona\ADC.App.Heroes\ADC.App.Contacts\obj\Debug\ADC.App.Contacts.dll
+C:\GitHub\SharPointSaturdayBarcelona\ADC.App.Heroes\ADC.App.Contacts\obj\Debug\ADC.App.Contacts.pdb

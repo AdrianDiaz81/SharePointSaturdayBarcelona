@@ -1,0 +1,25 @@
+﻿<div>
+    <h1>Speakers</h1>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="speaker in speakers">
+                <td>
+                    <a href="#/speaker/edit/{{speaker.Id}}" class="btn btn-default btn-xs">edit</a>
+                    <a href="#/speaker/delete/{{speaker.Id}}" class="btn btn-danger btn-xs">delete</a>
+                </td>
+                <td>{{speaker.Titulo}}</td>
+                <td>{{speaker.Apellidos}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>
+        <a href="#/speaker/add" class="btn btn-primary">Add New Speakers</a>
+    </p>
+</div>

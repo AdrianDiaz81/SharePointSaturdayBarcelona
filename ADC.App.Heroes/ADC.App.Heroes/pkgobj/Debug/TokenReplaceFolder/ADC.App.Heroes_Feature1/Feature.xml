@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint App Feature" Id="fc1d658b-47d7-486a-9fd1-b38d043c4b97" Scope="Web" Title="ADC.App.Heroes Feature1" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Default.aspx" />
+    <ElementFile Location="Pages\View.aspx" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\App.js" />
+    <ElementFile Location="Scripts\vendor\jquery\jquery-1.9.1.min.map" />
+    <ElementFile Location="Scripts\vendor\jquery\jquery-1.9.1.min.js" />
+    <ElementFile Location="Scripts\vendor\jquery\jquery-1.9.1.js" />
+    <ElementFile Location="Scripts\vendor\jquery\jquery-1.9.1.intellisense.js" />
+    <ElementFile Location="Scripts\vendor\require.js" />
+    <ElementFile Location="Scripts\vendor\r.js" />
+    <ElementFile Location="Scripts\typings\requirejs\require.d.ts" />
+    <ElementFile Location="Scripts\typings\jquery\jquery.d.ts" />
+    <ElementFile Location="Scripts\typings\microsoft-ajax\microsoft.ajax.d.ts" />
+    <ElementFile Location="Scripts\typings\sharepoint\SharePoint.d.ts" />
+    <ElementFile Location="Scripts\app\app.ts" />
+    <ElementFile Location="Scripts\app\services\superheroesServices.ts" />
+    <ElementFile Location="Scripts\app\app.js" />
+    <ElementFile Location="Scripts\bootstraper.ts" />
+    <ElementFile Location="Scripts\bootstraper.js" />
+    <ElementFile Location="Scripts\typings\es6-promise\es6-promise.d.ts" />
+    <ElementFile Location="Scripts\app\view\listSuperHeroes.html" />
+    <ElementFile Location="Scripts\typings\mustache\mustache.d.ts" />
+    <ElementFile Location="Scripts\vendor\mustache\mustache.js" />
+    <ElementFile Location="Scripts\app\view\addSuperHeroes.html" />
+    <ElementFile Location="Scripts\app\view\editSuperHeroes.html" />
+    <ElementFile Location="Scripts\app\view\deleteSuperHeroes.html" />
+    <ElementFile Location="Scripts\app\services\superheroesservices.js" />
+    <ElementFile Location="Scripts\bootstraperView.ts" />
+    <ElementFile Location="Scripts\bootstraperView.js" />
+    <ElementFile Location="Scripts\app\common\logger.js" />
+    <ElementFile Location="Scripts\app\common\Logger.ts" />
+    <ElementFile Location="Scripts\typings\toastr\toastr.d.ts" />
+    <ElementFile Location="Scripts\vendor\toastr\toastr.js" />
+    <ElementFile Location="Scripts\vendor\toastr\toastr.min.js" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\App.css" />
+    <ElementFile Location="Content\toastr.css" />
+    <ElementFile Location="Content\toastr.less" />
+    <ElementFile Location="Content\toastr.min.css" />
+    <ElementFile Location="Content\toastr.scss" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+    <ElementFile Location="Images\spiderman.jpg" />
+    <ElementFile Location="Images\wolverine14.jpg" />
+    <ElementFile Location="Images\hulk.jpg" />
+    <ElementFile Location="Images\thor.jpg" />
+    <ElementFile Location="Images\Robin.jpg" />
+    <ElementFile Location="Images\2.png" />
+    <ElementFile Location="Images\superman_.png" />
+    <ElementFile Location="Images\capitanAmerica.png" />
+    <ElementFile Location="Images\ironman.jpg" />
+    <ElementFile Location="Images\Catwoman.jpg" />
+    <ElementFile Location="Images\Logo.jpg" />
+    <ElementFile Location="Images\LogoA.jpg" />
+    <ElementManifest Location="SuperHeroresInstance\Elements.xml" />
+    <ElementManifest Location="SuperHerores\Elements.xml" />
+    <ElementFile Location="SuperHerores\Schema.xml" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+        <ElementManifest Location="SuperHeroresInstance\Elements.xml" />
+        <ElementManifest Location="SuperHerores\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

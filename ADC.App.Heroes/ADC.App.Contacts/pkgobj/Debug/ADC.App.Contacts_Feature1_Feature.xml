@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint App Feature" Id="b25d581d-c727-45b9-a4c4-11e813066458" Scope="Web" Title="ADC.App.Contacts Feature1" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\App.css" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Default.aspx" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\index.html" />
+    <ElementFile Location="Scripts\App\App.js" />
+    <ElementFile Location="Scripts\App\controller\mainController.js" />
+    <ElementFile Location="Scripts\App\services\speakersServices.js" />
+    <ElementFile Location="Scripts\App\views\list.html" />
+    <ElementFile Location="Scripts\App\views\add.html" />
+    <ElementFile Location="Scripts\App\views\edit.html" />
+    <ElementFile Location="Scripts\App\views\delete.html" />
+    <ElementManifest Location="Elements.xml" />
+    <ElementFile Location="index.html" />
+    <ElementManifest Location="SpeakersInstance\Elements.xml" />
+    <ElementManifest Location="Speakers\Elements.xml" />
+    <ElementFile Location="Speakers\Schema.xml" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="Elements.xml" />
+        <ElementManifest Location="SpeakersInstance\Elements.xml" />
+        <ElementManifest Location="Speakers\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

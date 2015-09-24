@@ -1,0 +1,18 @@
+﻿<h1>Add Speaker</h1>
+<div class="row">
+    <div class="col-md-5">
+
+
+            <div class="form-group">
+                <label for="Title">Name</label>
+                <input name="Title" type="text" class="form-control" placeholder="Enter Name Speaker" ng-model="speaker.Title">
+            </div>
+            <div class="form-group">
+                <label for="Director">Apellidos</label>
+                <input name="Director" type="text" class="form-control" placeholder="Enter FirsName Speaker" ng-model="speaker.Director">
+            </div>
+            <a href="/" class="btn btn-default">Cancel</a>
+        <input type="submit" class="btn btn-primary" value="Save" ng-click="addSpeaker(speaker.Title,speaker.Director)">
+        
+    </div>
+</div>
